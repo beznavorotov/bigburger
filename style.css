@@ -1,0 +1,291 @@
+body {
+    background-color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header {
+    background-color: #ffffff;
+}
+
+.logo_img {
+    max-width: 100%;
+    height: 50px;
+}
+
+.logo_text {
+    font-size: 48px;
+}
+
+.navbar-nav {
+    margin: 0;
+    padding: 0;
+    font-size: 32px;
+}
+
+.nav-item {
+    margin-right: 20px;
+}
+
+.nav-link {
+    color: #7c7b7b;
+    text-decoration: none;
+}
+
+.nav-link.active {
+    color: #ff6600;
+}
+
+.nav-link:hover {
+    color: #ff6600;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.btn_header {
+    width: 130px;
+    height: 45px;
+    font-size: 20px;
+}
+
+.btn_orange {
+    border-radius: 15px;
+    border: 2px solid #ff6600;
+    margin-right: 10px;
+    color: black;
+}
+
+.btn_orange:hover {
+    background-color: #ff6600;
+    color: white;
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.btn_white {
+    background-color: #ff6600;
+    border: none;
+    color: white;
+}
+
+.btn_white:hover {
+    background-color: white;
+    color: #ff6600;
+    border-radius: 15px;
+    border: 2px solid #ff6600;
+    transform: scale(1.05);
+    transition: 0.9s;
+}
+
+.btn_modal {
+    width: 200px;
+    height: 50px;
+    font-size: 18px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon_play {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: #f99553;
+    border-radius: 50%;
+    margin-right: 0.5rem;
+}
+
+.btn_orange:hover .icon_play {
+    transform: scale(1.05);
+    transition: 0.9s;
+    background-color: #ffffff;
+}
+
+.play_img {
+    width: 24px;
+    height: 24px;
+    display: block;
+    margin: auto 30%;
+}
+
+.hero {
+    padding: 20px;
+}
+
+.text_title {
+    font-size: 72px;
+}
+
+
+.text_orange {
+    color: #ff6600;
+}
+
+.text_black {
+    color: #000000;
+}
+
+.rating-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    margin-right: 440px;
+    position: absolute;
+}
+
+.rating-content {
+    max-width: 100%;
+    width: 150px;
+    height: 100px;
+}
+
+.rating-text {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.star {
+    width: 24px;
+    height: 24px;
+    background-image: url('./img/star.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 2px;
+}
+
+.star_none {
+    background-image: url('./img/star-none.png');
+}
+
+.user-icons {
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.user-icon {
+    width: 32px;
+    height: 32px;
+    margin-right: -5px;
+}
+
+.food-image-small {
+    width: 80px;
+    height: auto;
+    margin-left: auto;
+    margin-top: 5px;
+}
+
+.food-image {
+    max-width: 100%;
+    width: 500px;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.form_control {
+    width: 50%;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #7c7b7b;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-right: 50px;
+    background-color: #f99553;
+}
+
+.search-icon {
+    width: 20px;
+    height: 20px;
+    fill: white;
+    transition: fill 0.3s ease;
+}
+
+.btn_white:hover .search-icon {
+    fill: #ff6600;
+}
+
+.text_title {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.text_title span {
+    display: inline-block;
+    opacity: 0;
+    transform: translateX(10px);
+}
+
+@keyframes fade-in {
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@media (max-width: 1200px) {
+    .test {
+        margin-top: 120px;
+    }
+
+    .rating-box {
+        margin: -120px 70px 0px 100px;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo_text {
+        font-size: 20px;
+    }
+
+    .hero {
+        padding: 0 20px;
+    }
+
+    .text_title {
+        font-size: 54px;
+    }
+
+    .food-image {
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .form_control {
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .btn_header {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .btn_modal {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .search-bar {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .test {
+        margin-top: 120px;
+    }
+
+    .rating-box {
+        margin: -100px 100px 0px 100px;
+        max-width: 100%;
+    }
+}
